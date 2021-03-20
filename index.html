@@ -61,11 +61,16 @@
     </section>
 
     <!-- main header section -->
-    <section class="main__header__section">
+    <section class="main__header__section" id="MainMenu">
         <div class="container">
-            <div class="row">
+             <div class="row">
                 <div class="col-md-12">
                     <div class="main__header__menu">
+
+                        <ul class="bars" onclick="SidebarToggle()">
+                            <li><i class="fas fa-bars"></i></li>
+                        </ul>
+
                         <ul>
                             <li><a href="category.html">বাংলাদেশ</a></li>
                             <li><a href="category.html">দেশজুড়ে</a></li>
@@ -75,7 +80,72 @@
                             <li><a href="category.html">বিনোদন</a></li>
                             <li><a href="category.html">ফিচার</a></li>
                             <li><a href="category.html">রাজনীতি</a></li>
+                            <li class="dropdown__menu"><a href="category.html">অন্যান্য</a>
+                                <ul class="dropdown__wrapper">
+                                    <li><a href="category.html">বাংলাদেশ</a></li>
+                                    <li><a href="category.html">দেশজুড়ে</a></li>
+                                    <li><a href="category.html">আন্তজাতিক</a></li>
+                                    <li><a href="category.html">খেলাধুলা</a></li>
+                                    <li><a href="category.html">ভিডিও</a></li>
+                                </ul>
+                            </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- right sidebar -->
+    <section class="right__sidbar__section">
+        <div class="containe">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main__right__sidebar__container" id="LeftSidebar">
+
+                        <div class="right__sidebar__header">
+
+                            <!-- logo -->
+                            <div class="right__sidebar__logo">
+                                <img src="assets/images/img/logo.png" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="cross__icon" onclick="SidebarToggle()">
+                                <i class="fas fa-times"></i>
+                            </div>
+                        </div>
+
+                        <!-- menus -->
+                        <div class="right__sidebar__menu__wrapper">
+                            <ul>
+                                <li><a href="category.html">বাংলাদেশ</a></li>
+                                <li><a href="category.html">দেশজুড়ে</a></li>
+                                <li><a href="category.html">আন্তজাতিক</a></li>
+                                <li><a href="category.html">খেলাধুলা</a></li>
+                                <li><a href="category.html">ভিডিও</a></li>
+                                <li><a href="category.html">বিনোদন</a></li>
+                                <li><a href="category.html">ফিচার</a></li>
+                                <li><a href="category.html">রাজনীতি</a></li>
+                                <li><a href="category.html">আন্তজাতিক</a></li>
+                                <li><a href="category.html">খেলাধুলা</a></li>
+                                <li><a href="category.html">ভিডিও</a></li>
+                                <li><a href="category.html">বিনোদন</a></li>
+                                <li><a href="category.html">ফিচার</a></li>
+                                <li><a href="category.html">রাজনীতি</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- sidebar footer -->
+                        <div class="right__sidebar__footer">
+                            <h4>আমাদের সাথে থাকুন</h4>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1253,6 +1323,11 @@
     </main>
 
 <footer class="footer__main">
+
+    <div class="ClickTop">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </div>
+    
     <section class="footer__top__section">
         <div class="container">
             <div class="row">
