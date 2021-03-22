@@ -226,6 +226,7 @@ li.dropdown__menu:hover .dropdown__wrapper {
     width: 100%;
     height: 340px;
     overflow: hidden;
+    position: relative;
 }
 .hero__cover_thumb img{
     width: 100%;
@@ -233,6 +234,7 @@ li.dropdown__menu:hover .dropdown__wrapper {
     object-fit: cover;
     border-radius: 4px;
     transition: all 0.4s ease-in-out;
+    position: relative;
 }
 .hero__cover__content {
     padding: 20px 20px;
@@ -328,11 +330,14 @@ li.dropdown__menu:hover .dropdown__wrapper {
     grid-gap: 20px;
 }
 .second__box {background: white;padding: 10px;border-radius: 4px;}
-.second__thumb {
 
+.second__thumb {
+    height: 180px;
+    width: 100%;
 }
 .second__thumb img {
-
+    width: 100%;
+    height: 100%;
 }
 .second__content {
     padding: 10px 0px;
@@ -481,12 +486,15 @@ li.dropdown__menu:hover .dropdown__wrapper {
 
 }
 .fourth__content__area li {
-
+    border-bottom: 2px solid rgba(211, 211, 211, 0.185);
+    display: block;
+}
+.fourth__content__area li:last-child{
+    border-bottom: unset;
 }
 .fourth__content__area a {
     font-size: 18px;
     padding: 7px 0px;
-    border-bottom: 2px solid lightgray;
 }
 
 .middle__cover__news__wrapper {

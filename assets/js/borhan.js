@@ -1,8 +1,8 @@
 
-// Hero right slider
+// Video slider
 var videoSlider = new Swiper('.videoSlider', {
     loop: true,
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 10,
     // autoplay: {
     //   delay: 2500,
@@ -12,6 +12,20 @@ var videoSlider = new Swiper('.videoSlider', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+      breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    767: {
+      slidesPerView: 4,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 10,
+    },
+  }
   });
 
 
