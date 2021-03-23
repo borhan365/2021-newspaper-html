@@ -335,20 +335,35 @@
         grid-gap: 10px;
         margin-bottom: 9px;
     }
-    .lifestyle__thumb{
+    .lifestyle__thumb__category{
         height: 295px;
     }
-    .lifestyle__wrapper:last-child{
+    .lifestyle__wrapper__cateogry:last-child{
         display: none;
     }
     .category__featured__section{
         margin-bottom: 20px;
     }
-    .lifestyle__content p {
+    .lifestyle__content__category p {
         font-size: 14px;
         margin-top: 9px;
     }
+    .lifestyle__content__category{
+        padding: 10px;
+    }
+    .lifestyle__content h3 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 7px;
+    }
     .lifestyle__content{
+        padding: 15px;
+    }
+    .lifestyle__content__category h3{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .lifestyle__content__category{
         padding: 10px;
     }
 }
