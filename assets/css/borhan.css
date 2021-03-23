@@ -5,7 +5,21 @@
   }
 @font-face {
     font-family: fontBold;
-    src: url(../assets/fonts/NotoSerifBengali-Bold.ttf);
+    src: url(../fonts/NotoSerifBengali-Bold.ttf);
+}
+
+/* English fonts */
+@font-face {
+    font-family: poppinBold;
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinSemi;
+    src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
 *{
@@ -1265,17 +1279,17 @@ li.dropdown__menu:hover .dropdown__wrapper {
 .footer__bottom__left p {
     color: gray;
     margin: 0px;
-    font-family: -webkit-pictograph;
+    font-family: 'poppins';
 }
 .footer__bottom__right p{
     color: gray;
     margin: 0px;
-    font-family: cursive;
+    font-family: 'poppins';
 }
 .footer__bottom__right span {
     color: green;
     font-weight: bold;
-    font-family: cursive;
+    font-family: 'poppinSemi';
     letter-spacing: 0.7px;
 }
 
@@ -1402,3 +1416,31 @@ li.dropdown__menu:hover .dropdown__wrapper {
     padding: 3px 0px;
     transition: all 0.4s linear;
   }
+
+
+/* Page Section
+================= */
+.page__section {
+
+}
+.page__wrapper {
+
+}
+.page__thumb {width: 100%;height: 300px;}
+.page__thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: unset;
+}
+.page__content {position: relative;}
+.page__header__title {text-align: center;position: absolute;width: 100%;bottom: -19px;box-shadow: 0px 0px 10px 0px #00000063;}
+.page__header__title h2 {background: var(--brandColor);color: white;padding: 13px 10px;border-radius: 2px;font-family: poppinSemi;}
+.page__content__section {padding-top: 18px;}
+.page__content__wrapper {background: white;padding: 30px;margin: 30px 0px;}
+.page__content__wrapper p {font-family: 'poppins';font-size: 19px;line-height: 30px;color: #000000de;}
+.page__content__wrapper img {
+    width: 100%;
+    height:auto;
+    margin: 13px 0px;
+}
