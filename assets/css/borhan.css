@@ -315,6 +315,7 @@ li.dropdown__menu:hover .dropdown__wrapper {
 .hero__mini__content h3 {
     font-size: 20px;
     color: #000000db;
+    font-weight: normal;
 }
 .hero__mini__content a {
     color: #000
@@ -420,7 +421,7 @@ li.dropdown__menu:hover .dropdown__wrapper {
 
 }
 .third__sec__excerpt {margin-top: 103px;}
-.third__sec__excerpt p {color: darkslategray;font-size: 16px;}
+.third__sec__excerpt p {color: darkslategray;font-size: 16px; font-weight: normal;}
 .third__sec__author{
     display: flex;
     justify-content: flex-start;
@@ -552,6 +553,7 @@ li.dropdown__menu:hover .dropdown__wrapper {
 .middle__mini__content h3 {
     font-size: 21px;
     color: #000000db;
+    font-weight: normal;
 }
 
 
@@ -656,6 +658,7 @@ li.dropdown__menu:hover .dropdown__wrapper {
 .six__mini__content h3 {
     font-size: 15px;
     color: #000000db;
+    font-weight: normal;
 }
 
 /* Photo gallery Section
@@ -907,13 +910,13 @@ li.dropdown__menu:hover .dropdown__wrapper {
 }
 .single__excerpt .single__date {
     color: #353535;
-    font-weight: bold;
 }
 .single__excerpt .single__author {
-    font-weight: bold;
+    font-weight: normal;
 }
 .single__excerpt .single__author a{
     color: green;
+    font-weight: bold;
 }
 .single__content ul{
     flex-direction: column;
@@ -981,6 +984,7 @@ li.dropdown__menu:hover .dropdown__wrapper {
     color: var(--brandColor);
     font-size: 22px;
     padding-top: 10px;
+    font-weight: normal;
 }
 .single__related__content h2:hover {
     color: black;
@@ -1243,8 +1247,9 @@ li.dropdown__menu:hover .dropdown__wrapper {
 
 }
 .list__content h3 {
-    font-size: 18px;
+    font-size: 17px;
     color: black;
+    font-weight: normal;
 }
 .list__news_box:hover .list__content h3 {
     color: var(--brandColor);
